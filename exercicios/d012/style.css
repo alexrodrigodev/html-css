@@ -64,9 +64,9 @@ header a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 2.3em;
     padding-left: 30px;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 section.normal {
@@ -78,6 +78,7 @@ section.normal {
 section p {
     display: block;
     font-family: var(--fonte3);
+    padding-bottom: 2em;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -108,20 +109,24 @@ section.imagem02 {
 
 section.imagem > p {
     display: inline-block;
-    width: 300px;
+    font-size: 1.3em;
     background-color: #0000008c;
     padding: 5px;
+    line-height: 2em;
     color: white;
+    text-shadow: 1px 1px 0px black;
     
 
 }
 
 section.imagem02 > p {
     display: inline-block;
-    width: 300px;
+    font-size: 1.3em;
     background-color: #0000008c;
     padding: 5px;
+    line-height: 2em;
     color: white;
+    text-shadow: 1px 1px 0px black;
 
 
 }
